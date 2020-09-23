@@ -9,6 +9,41 @@
 /* Begin PBXBuildFile section */
 		105CD7162519A8EE00053DB4 /* EasyLoginTalkManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 105CD7142519A8EE00053DB4 /* EasyLoginTalkManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		105CD71F2519A92600053DB4 /* EasyLoginTalkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105CD71E2519A92600053DB4 /* EasyLoginTalkManager.swift */; };
+		105CD7212519ACF500053DB4 /* EasyLoginTalkManager.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 105CD7202519ACF500053DB4 /* EasyLoginTalkManager.xcassets */; };
+		105CD7622519AECC00053DB4 /* EasyLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105CD7602519AECC00053DB4 /* EasyLoginViewController.swift */; };
+		105CD7632519AECC00053DB4 /* EasyLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 105CD7612519AECC00053DB4 /* EasyLoginViewController.xib */; };
+		105CD77A2519B02000053DB4 /* SF-Pro-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 105CD7672519B01F00053DB4 /* SF-Pro-Display-Bold.otf */; };
+		105CD77B2519B02000053DB4 /* SF-Pro-Display-UltralightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 105CD7682519B01F00053DB4 /* SF-Pro-Display-UltralightItalic.otf */; };
+		105CD77C2519B02000053DB4 /* SF-Pro-Display-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 105CD7692519B01F00053DB4 /* SF-Pro-Display-HeavyItalic.otf */; };
+		105CD77D2519B02000053DB4 /* SF-Pro-Display-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 105CD76A2519B01F00053DB4 /* SF-Pro-Display-BlackItalic.otf */; };
+		105CD77E2519B02000053DB4 /* SF-Pro-Display-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 105CD76B2519B01F00053DB4 /* SF-Pro-Display-MediumItalic.otf */; };
+		105CD77F2519B02000053DB4 /* SF-Pro-Display-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 105CD76C2519B01F00053DB4 /* SF-Pro-Display-Semibold.otf */; };
+		105CD7802519B02000053DB4 /* SF-Pro-Display-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 105CD76D2519B01F00053DB4 /* SF-Pro-Display-SemiboldItalic.otf */; };
+		105CD7812519B02000053DB4 /* SF-Pro-Display-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 105CD76E2519B01F00053DB4 /* SF-Pro-Display-Light.otf */; };
+		105CD7822519B02000053DB4 /* SF-Pro-Display-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 105CD76F2519B01F00053DB4 /* SF-Pro-Display-LightItalic.otf */; };
+		105CD7832519B02000053DB4 /* SF-Pro-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 105CD7702519B01F00053DB4 /* SF-Pro-Text-Regular.otf */; };
+		105CD7842519B02000053DB4 /* SF-Pro-Display-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 105CD7712519B01F00053DB4 /* SF-Pro-Display-ThinItalic.otf */; };
+		105CD7852519B02000053DB4 /* SF-Pro-Display-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 105CD7722519B01F00053DB4 /* SF-Pro-Display-Thin.otf */; };
+		105CD7862519B02000053DB4 /* SF-Pro-Display-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 105CD7732519B01F00053DB4 /* SF-Pro-Display-RegularItalic.otf */; };
+		105CD7872519B02000053DB4 /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 105CD7742519B01F00053DB4 /* SF-Pro-Display-Regular.otf */; };
+		105CD7882519B02000053DB4 /* SF-Pro-Display-Ultralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 105CD7752519B01F00053DB4 /* SF-Pro-Display-Ultralight.otf */; };
+		105CD7892519B02000053DB4 /* SF-Pro-Display-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 105CD7762519B01F00053DB4 /* SF-Pro-Display-Black.otf */; };
+		105CD78A2519B02000053DB4 /* SF-Pro-Display-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 105CD7772519B02000053DB4 /* SF-Pro-Display-Medium.otf */; };
+		105CD78B2519B02000053DB4 /* SF-Pro-Display-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 105CD7782519B02000053DB4 /* SF-Pro-Display-Heavy.otf */; };
+		105CD78C2519B02000053DB4 /* SF-Pro-Display-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 105CD7792519B02000053DB4 /* SF-Pro-Display-BoldItalic.otf */; };
+		105CD7952519B93E00053DB4 /* EasyLoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105CD7942519B93E00053DB4 /* EasyLoginViewModel.swift */; };
+		105CD7A22519E17D00053DB4 /* UserDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105CD7A12519E17D00053DB4 /* UserDataModel.swift */; };
+		106730C5251AF0B100A66F7F /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106730BF251AF0B100A66F7F /* UIColor+Extension.swift */; };
+		106730C6251AF0B100A66F7F /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106730C0251AF0B100A66F7F /* UIView+Extension.swift */; };
+		106730C7251AF0B100A66F7F /* CustomViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106730C2251AF0B100A66F7F /* CustomViewModel.swift */; };
+		106730C8251AF0B100A66F7F /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106730C3251AF0B100A66F7F /* CustomTextField.swift */; };
+		106730C9251AF0B100A66F7F /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106730C4251AF0B100A66F7F /* CustomViewController.swift */; };
+		106730D2251AF0B900A66F7F /* HandlePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106730CC251AF0B900A66F7F /* HandlePresenter.swift */; };
+		106730D3251AF0B900A66F7F /* UserDefaultManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106730CF251AF0B900A66F7F /* UserDefaultManager.swift */; };
+		106730D4251AF0B900A66F7F /* Constains.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106730D1251AF0B900A66F7F /* Constains.swift */; };
+		10E16B452519F62400884F92 /* LoginOtpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E16B432519F62400884F92 /* LoginOtpViewController.swift */; };
+		10E16B462519F62400884F92 /* LoginOtpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10E16B442519F62400884F92 /* LoginOtpViewController.xib */; };
+		10E16B482519FFA300884F92 /* LoginOtpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E16B472519FFA300884F92 /* LoginOtpViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +51,41 @@
 		105CD7142519A8EE00053DB4 /* EasyLoginTalkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyLoginTalkManager.h; sourceTree = "<group>"; };
 		105CD7152519A8EE00053DB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		105CD71E2519A92600053DB4 /* EasyLoginTalkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyLoginTalkManager.swift; sourceTree = "<group>"; };
+		105CD7202519ACF500053DB4 /* EasyLoginTalkManager.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = EasyLoginTalkManager.xcassets; sourceTree = "<group>"; };
+		105CD7602519AECC00053DB4 /* EasyLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyLoginViewController.swift; sourceTree = "<group>"; };
+		105CD7612519AECC00053DB4 /* EasyLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EasyLoginViewController.xib; sourceTree = "<group>"; };
+		105CD7672519B01F00053DB4 /* SF-Pro-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Bold.otf"; sourceTree = "<group>"; };
+		105CD7682519B01F00053DB4 /* SF-Pro-Display-UltralightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-UltralightItalic.otf"; sourceTree = "<group>"; };
+		105CD7692519B01F00053DB4 /* SF-Pro-Display-HeavyItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-HeavyItalic.otf"; sourceTree = "<group>"; };
+		105CD76A2519B01F00053DB4 /* SF-Pro-Display-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-BlackItalic.otf"; sourceTree = "<group>"; };
+		105CD76B2519B01F00053DB4 /* SF-Pro-Display-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-MediumItalic.otf"; sourceTree = "<group>"; };
+		105CD76C2519B01F00053DB4 /* SF-Pro-Display-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Semibold.otf"; sourceTree = "<group>"; };
+		105CD76D2519B01F00053DB4 /* SF-Pro-Display-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		105CD76E2519B01F00053DB4 /* SF-Pro-Display-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Light.otf"; sourceTree = "<group>"; };
+		105CD76F2519B01F00053DB4 /* SF-Pro-Display-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-LightItalic.otf"; sourceTree = "<group>"; };
+		105CD7702519B01F00053DB4 /* SF-Pro-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Regular.otf"; sourceTree = "<group>"; };
+		105CD7712519B01F00053DB4 /* SF-Pro-Display-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-ThinItalic.otf"; sourceTree = "<group>"; };
+		105CD7722519B01F00053DB4 /* SF-Pro-Display-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Thin.otf"; sourceTree = "<group>"; };
+		105CD7732519B01F00053DB4 /* SF-Pro-Display-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-RegularItalic.otf"; sourceTree = "<group>"; };
+		105CD7742519B01F00053DB4 /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
+		105CD7752519B01F00053DB4 /* SF-Pro-Display-Ultralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Ultralight.otf"; sourceTree = "<group>"; };
+		105CD7762519B01F00053DB4 /* SF-Pro-Display-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Black.otf"; sourceTree = "<group>"; };
+		105CD7772519B02000053DB4 /* SF-Pro-Display-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Medium.otf"; sourceTree = "<group>"; };
+		105CD7782519B02000053DB4 /* SF-Pro-Display-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Heavy.otf"; sourceTree = "<group>"; };
+		105CD7792519B02000053DB4 /* SF-Pro-Display-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-BoldItalic.otf"; sourceTree = "<group>"; };
+		105CD7942519B93E00053DB4 /* EasyLoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyLoginViewModel.swift; sourceTree = "<group>"; };
+		105CD7A12519E17D00053DB4 /* UserDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataModel.swift; sourceTree = "<group>"; };
+		106730BF251AF0B100A66F7F /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		106730C0251AF0B100A66F7F /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		106730C2251AF0B100A66F7F /* CustomViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomViewModel.swift; sourceTree = "<group>"; };
+		106730C3251AF0B100A66F7F /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		106730C4251AF0B100A66F7F /* CustomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
+		106730CC251AF0B900A66F7F /* HandlePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandlePresenter.swift; sourceTree = "<group>"; };
+		106730CF251AF0B900A66F7F /* UserDefaultManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultManager.swift; sourceTree = "<group>"; };
+		106730D1251AF0B900A66F7F /* Constains.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constains.swift; sourceTree = "<group>"; };
+		10E16B432519F62400884F92 /* LoginOtpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginOtpViewController.swift; sourceTree = "<group>"; };
+		10E16B442519F62400884F92 /* LoginOtpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginOtpViewController.xib; sourceTree = "<group>"; };
+		10E16B472519FFA300884F92 /* LoginOtpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginOtpViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,11 +118,174 @@
 		105CD7132519A8EE00053DB4 /* EasyLoginTalkManager */ = {
 			isa = PBXGroup;
 			children = (
+				105CD78D2519B42E00053DB4 /* ClassCode */,
 				105CD7142519A8EE00053DB4 /* EasyLoginTalkManager.h */,
 				105CD7152519A8EE00053DB4 /* Info.plist */,
 				105CD71E2519A92600053DB4 /* EasyLoginTalkManager.swift */,
+				105CD7202519ACF500053DB4 /* EasyLoginTalkManager.xcassets */,
 			);
 			path = EasyLoginTalkManager;
+			sourceTree = "<group>";
+		};
+		105CD75E2519AE4700053DB4 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				10E16B422519F60800884F92 /* LoginOtpViewController */,
+				105CD75F2519AE5700053DB4 /* LoginViewController */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		105CD75F2519AE5700053DB4 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				105CD7602519AECC00053DB4 /* EasyLoginViewController.swift */,
+				105CD7612519AECC00053DB4 /* EasyLoginViewController.xib */,
+				105CD7942519B93E00053DB4 /* EasyLoginViewModel.swift */,
+			);
+			path = LoginViewController;
+			sourceTree = "<group>";
+		};
+		105CD7642519AFE200053DB4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				105CD7652519AFFC00053DB4 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		105CD7652519AFFC00053DB4 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				105CD7662519B00100053DB4 /* SF-Pro-Display */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		105CD7662519B00100053DB4 /* SF-Pro-Display */ = {
+			isa = PBXGroup;
+			children = (
+				105CD7762519B01F00053DB4 /* SF-Pro-Display-Black.otf */,
+				105CD76A2519B01F00053DB4 /* SF-Pro-Display-BlackItalic.otf */,
+				105CD7672519B01F00053DB4 /* SF-Pro-Display-Bold.otf */,
+				105CD7792519B02000053DB4 /* SF-Pro-Display-BoldItalic.otf */,
+				105CD7782519B02000053DB4 /* SF-Pro-Display-Heavy.otf */,
+				105CD7692519B01F00053DB4 /* SF-Pro-Display-HeavyItalic.otf */,
+				105CD76E2519B01F00053DB4 /* SF-Pro-Display-Light.otf */,
+				105CD76F2519B01F00053DB4 /* SF-Pro-Display-LightItalic.otf */,
+				105CD7772519B02000053DB4 /* SF-Pro-Display-Medium.otf */,
+				105CD76B2519B01F00053DB4 /* SF-Pro-Display-MediumItalic.otf */,
+				105CD7742519B01F00053DB4 /* SF-Pro-Display-Regular.otf */,
+				105CD7732519B01F00053DB4 /* SF-Pro-Display-RegularItalic.otf */,
+				105CD76C2519B01F00053DB4 /* SF-Pro-Display-Semibold.otf */,
+				105CD76D2519B01F00053DB4 /* SF-Pro-Display-SemiboldItalic.otf */,
+				105CD7722519B01F00053DB4 /* SF-Pro-Display-Thin.otf */,
+				105CD7712519B01F00053DB4 /* SF-Pro-Display-ThinItalic.otf */,
+				105CD7752519B01F00053DB4 /* SF-Pro-Display-Ultralight.otf */,
+				105CD7682519B01F00053DB4 /* SF-Pro-Display-UltralightItalic.otf */,
+				105CD7702519B01F00053DB4 /* SF-Pro-Text-Regular.otf */,
+			);
+			path = "SF-Pro-Display";
+			sourceTree = "<group>";
+		};
+		105CD78D2519B42E00053DB4 /* ClassCode */ = {
+			isa = PBXGroup;
+			children = (
+				106730CA251AF0B900A66F7F /* ManagerApp */,
+				106730BD251AF0B100A66F7F /* Util */,
+				105CD7A02519E17000053DB4 /* Model */,
+				105CD75E2519AE4700053DB4 /* UI */,
+				105CD7642519AFE200053DB4 /* Resources */,
+			);
+			path = ClassCode;
+			sourceTree = "<group>";
+		};
+		105CD7A02519E17000053DB4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				105CD7A12519E17D00053DB4 /* UserDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		106730BD251AF0B100A66F7F /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				106730BE251AF0B100A66F7F /* Extension */,
+				106730C1251AF0B100A66F7F /* CustomView */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		106730BE251AF0B100A66F7F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				106730BF251AF0B100A66F7F /* UIColor+Extension.swift */,
+				106730C0251AF0B100A66F7F /* UIView+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		106730C1251AF0B100A66F7F /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				106730C2251AF0B100A66F7F /* CustomViewModel.swift */,
+				106730C3251AF0B100A66F7F /* CustomTextField.swift */,
+				106730C4251AF0B100A66F7F /* CustomViewController.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		106730CA251AF0B900A66F7F /* ManagerApp */ = {
+			isa = PBXGroup;
+			children = (
+				106730CB251AF0B900A66F7F /* HandlePresenter */,
+				106730CD251AF0B900A66F7F /* ReachabilityNetworkManager */,
+				106730CE251AF0B900A66F7F /* UserDataManager */,
+				106730D0251AF0B900A66F7F /* Constains */,
+			);
+			path = ManagerApp;
+			sourceTree = "<group>";
+		};
+		106730CB251AF0B900A66F7F /* HandlePresenter */ = {
+			isa = PBXGroup;
+			children = (
+				106730CC251AF0B900A66F7F /* HandlePresenter.swift */,
+			);
+			path = HandlePresenter;
+			sourceTree = "<group>";
+		};
+		106730CD251AF0B900A66F7F /* ReachabilityNetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ReachabilityNetworkManager;
+			sourceTree = "<group>";
+		};
+		106730CE251AF0B900A66F7F /* UserDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				106730CF251AF0B900A66F7F /* UserDefaultManager.swift */,
+			);
+			path = UserDataManager;
+			sourceTree = "<group>";
+		};
+		106730D0251AF0B900A66F7F /* Constains */ = {
+			isa = PBXGroup;
+			children = (
+				106730D1251AF0B900A66F7F /* Constains.swift */,
+			);
+			path = Constains;
+			sourceTree = "<group>";
+		};
+		10E16B422519F60800884F92 /* LoginOtpViewController */ = {
+			isa = PBXGroup;
+			children = (
+				10E16B432519F62400884F92 /* LoginOtpViewController.swift */,
+				10E16B442519F62400884F92 /* LoginOtpViewController.xib */,
+				10E16B472519FFA300884F92 /* LoginOtpViewModel.swift */,
+			);
+			path = LoginOtpViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +358,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				105CD7852519B02000053DB4 /* SF-Pro-Display-Thin.otf in Resources */,
+				105CD7842519B02000053DB4 /* SF-Pro-Display-ThinItalic.otf in Resources */,
+				105CD77F2519B02000053DB4 /* SF-Pro-Display-Semibold.otf in Resources */,
+				105CD7632519AECC00053DB4 /* EasyLoginViewController.xib in Resources */,
+				105CD77D2519B02000053DB4 /* SF-Pro-Display-BlackItalic.otf in Resources */,
+				105CD7212519ACF500053DB4 /* EasyLoginTalkManager.xcassets in Resources */,
+				105CD7882519B02000053DB4 /* SF-Pro-Display-Ultralight.otf in Resources */,
+				105CD77A2519B02000053DB4 /* SF-Pro-Display-Bold.otf in Resources */,
+				105CD7802519B02000053DB4 /* SF-Pro-Display-SemiboldItalic.otf in Resources */,
+				105CD78C2519B02000053DB4 /* SF-Pro-Display-BoldItalic.otf in Resources */,
+				10E16B462519F62400884F92 /* LoginOtpViewController.xib in Resources */,
+				105CD7862519B02000053DB4 /* SF-Pro-Display-RegularItalic.otf in Resources */,
+				105CD78A2519B02000053DB4 /* SF-Pro-Display-Medium.otf in Resources */,
+				105CD78B2519B02000053DB4 /* SF-Pro-Display-Heavy.otf in Resources */,
+				105CD7832519B02000053DB4 /* SF-Pro-Text-Regular.otf in Resources */,
+				105CD7892519B02000053DB4 /* SF-Pro-Display-Black.otf in Resources */,
+				105CD7872519B02000053DB4 /* SF-Pro-Display-Regular.otf in Resources */,
+				105CD7812519B02000053DB4 /* SF-Pro-Display-Light.otf in Resources */,
+				105CD77E2519B02000053DB4 /* SF-Pro-Display-MediumItalic.otf in Resources */,
+				105CD7822519B02000053DB4 /* SF-Pro-Display-LightItalic.otf in Resources */,
+				105CD77B2519B02000053DB4 /* SF-Pro-Display-UltralightItalic.otf in Resources */,
+				105CD77C2519B02000053DB4 /* SF-Pro-Display-HeavyItalic.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +390,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				106730C5251AF0B100A66F7F /* UIColor+Extension.swift in Sources */,
+				105CD7A22519E17D00053DB4 /* UserDataModel.swift in Sources */,
+				106730C6251AF0B100A66F7F /* UIView+Extension.swift in Sources */,
+				105CD7622519AECC00053DB4 /* EasyLoginViewController.swift in Sources */,
+				106730C8251AF0B100A66F7F /* CustomTextField.swift in Sources */,
+				10E16B452519F62400884F92 /* LoginOtpViewController.swift in Sources */,
 				105CD71F2519A92600053DB4 /* EasyLoginTalkManager.swift in Sources */,
+				106730C9251AF0B100A66F7F /* CustomViewController.swift in Sources */,
+				106730D2251AF0B900A66F7F /* HandlePresenter.swift in Sources */,
+				106730D3251AF0B900A66F7F /* UserDefaultManager.swift in Sources */,
+				106730C7251AF0B100A66F7F /* CustomViewModel.swift in Sources */,
+				10E16B482519FFA300884F92 /* LoginOtpViewModel.swift in Sources */,
+				106730D4251AF0B900A66F7F /* Constains.swift in Sources */,
+				105CD7952519B93E00053DB4 /* EasyLoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +542,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = EasyLoginTalkManager/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -283,7 +552,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -300,6 +569,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = EasyLoginTalkManager/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,7 +578,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = trung.com.EasyLoginTalkManager;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

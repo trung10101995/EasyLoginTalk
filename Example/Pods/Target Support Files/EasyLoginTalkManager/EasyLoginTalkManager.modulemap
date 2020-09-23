@@ -1,0 +1,6 @@
+framework module EasyLoginTalkManager {
+  umbrella header "EasyLoginTalkManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

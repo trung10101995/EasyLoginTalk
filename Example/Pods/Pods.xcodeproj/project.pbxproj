@@ -1,0 +1,1725 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02600FC68998D8BC852DA73ACAC6C571 /* PinCodeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF98FA38F883DAF074535262F4B1C43 /* PinCodeTextField.swift */; };
+		0332D3EBA077FB2745464EFF56F7AB68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DFE962BADDCE5901CE7AF6235D883F3 /* Foundation.framework */; };
+		0366C892A428F6B2AB850AFF899A73C2 /* EasyLoginTalkManager.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C5BFF047D2A0E963255B6B9B01BE10D /* EasyLoginTalkManager.xcassets */; };
+		05B08BE313384119C9CA18E2ADDBDD14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DFE962BADDCE5901CE7AF6235D883F3 /* Foundation.framework */; };
+		07309AFC8991A07BC28527D24204B2BC /* MLTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FE9755636BF2C50A650594091F562F /* MLTransition.m */; };
+		0F8BFE163F61FDA6BBC78CE5DCD48E65 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04840B64B1A3FFFAF928B375B3D4CDAD /* StringExtension.swift */; };
+		1708052E05EF489505705F3A601C0D26 /* ImmutableMappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79F469B13CFD648EAD74823BC009489 /* ImmutableMappable.swift */; };
+		19E12799989182812C796A8163964E85 /* TransformOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB808ED185C54DA27CE9B3E8765C1CF /* TransformOf.swift */; };
+		1C0305143D2D64BB460792682C7A4F27 /* HexColorTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2540BB15C5F1528D72C8DFD5E9B7366 /* HexColorTransform.swift */; };
+		1EC86B89ECEAA94DBB99D2B89EB4A5C5 /* UserDefaultManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F0914FB8963AB4B97C560E9550AD4D /* UserDefaultManager.swift */; };
+		1F4B810B643FFC3749E58840E86B8404 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DFE962BADDCE5901CE7AF6235D883F3 /* Foundation.framework */; };
+		207027233777B9CCD21489CD56DB304B /* ISO8601DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B62AA90117445FACE63AC4FE44AB17 /* ISO8601DateTransform.swift */; };
+		2384732F8447CF2026819F9D8D0307E4 /* PinCodeTextField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A1271188B31FA82CF31DB5A448C0331 /* PinCodeTextField.framework */; };
+		29BBA92E42995905548453C7E110BE3A /* CodableTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA1DC548EA8AB80E092F235B11F18CB /* CodableTransform.swift */; };
+		2A256325B400DDDB50100FA290490823 /* URLTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6C3404A3F08A1F521AC2BC084845AA /* URLTransform.swift */; };
+		33406637A0EA43949A68ABDF82F79A78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DFE962BADDCE5901CE7AF6235D883F3 /* Foundation.framework */; };
+		345AFCA72B3F007E4486A99157DDA9BC /* HandlePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF964B306E1CB6FE353DF8CC78EC5F8E /* HandlePresenter.swift */; };
+		37F2164479BCC4B26D9F8BF40887FC5C /* DictionaryTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BB848E8457975E66DF6A7CB7061F73 /* DictionaryTransform.swift */; };
+		38896C19D29064372B26AC7FEF8FCEFD /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF65BBA4DD3531B2FE5A985E84C0C9A7 /* ObjectMapper.framework */; };
+		44A5924A47F313D12332F0C5D988F358 /* CustomViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC994B1902FF15678D09BC72904BB590 /* CustomViewModel.swift */; };
+		456E8417EF9476FD48139FFA3B6508F8 /* CustomDateFormatTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5C26A1363D8C2FA4F0EC59925ADE3F /* CustomDateFormatTransform.swift */; };
+		47F5F877D4436B54047D057E5AF0DAB3 /* EasyLoginTalkManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9531814D6BBEA56D31BE45A63F8FBBDE /* EasyLoginTalkManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4900345A9A092AAD6E9C074AA4724E45 /* TransformType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3CA8C967C50EAF4A51766E6D5E49AE /* TransformType.swift */; };
+		4D296D2DA8D07AE051B1F6026C4B0E53 /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47BA2CE0FABD4EE2DD9948E2B4533F22 /* Reachability.framework */; };
+		4D6609F308831CE1200B5C82F875CF5F /* EnumOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12D9959D3EEEDBC63D6CD249A9B3B79 /* EnumOperators.swift */; };
+		544CAB18AF63F49E45E19E5EF988A5D0 /* MLTransition.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 004DCBC7FCFD59FC4D0FE79F0BBA6B56 /* MLTransition.framework */; };
+		5AC24173F1CA353CFF524B36FB9E404F /* PinCodeTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7FA728232B474B4BCD5E8E2FA14F725 /* PinCodeTextField-dummy.m */; };
+		5D18B0D04365961A77278772A52A0C44 /* ObjectMapper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AF22C7E205E448E9AEC273DBE02576F /* ObjectMapper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61EB220C459E7DF605F80E190E8EF8F9 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5930DF4036D47A961AEE103C82E383F3 /* UIColor+Extension.swift */; };
+		6647BD11629D9F93904E5BC6801A9791 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11840DE0FA2E4C1E7A1718C5B77C350E /* CoreTelephony.framework */; };
+		695820EE281A561C409E276A8448A954 /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F638FF9B57A33F77A077CB43E1B93787 /* Mapper.swift */; };
+		75D77D6082B1A53CE22A104B8327D15D /* UserDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE45A182075D2E619DE42DE39440E3C /* UserDataModel.swift */; };
+		787C1AC73506CDE0A4C74619D72B0ECF /* DataTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E3633D906932D8E3E22B0FB160E106 /* DataTransform.swift */; };
+		7AB7F271C135827659553F0B140149B2 /* LoginOtpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB84D82C2A9F9FAC59E3E3E79C37F5D0 /* LoginOtpViewController.swift */; };
+		819D16899601F40443C5933FB48C5D02 /* EasyLoginTalkManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF1993DFDE04407822BA401BFAE9BE6A /* EasyLoginTalkManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		823DCD7791AAAE9897C699D84237A774 /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D7C498FA339E02BD53ECB8916CEA8E /* Pods-Example-dummy.m */; };
+		8523EE908DC58A7FCFF8AB711EE2A428 /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC019657BF72C30530D9941F51CB07 /* CustomViewController.swift */; };
+		8675CE37E93D7B95057B3D7AE34BD246 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF92AC54719F0ADD211C3D7890F625B /* Operators.swift */; };
+		92A18E8344BF4FFBA23E2C6E395D326F /* EasyLoginTalkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201625A206BC546E6DC4FF8AA1CC7FAA /* EasyLoginTalkManager.swift */; };
+		97B6E78EA2367B7A7DDCDB9E46B26B1E /* ReachabilitySwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83AA9E7D5280FAF9504938AAB78D751D /* ReachabilitySwift-dummy.m */; };
+		99F594EDD9AF7309C029489FC4D86077 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DFE962BADDCE5901CE7AF6235D883F3 /* Foundation.framework */; };
+		9DF59AB7581ECA5EB6EC168384B0E19D /* ReachabilitySwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83A3C8AE580D770BB7289E0C3753C6C3 /* ReachabilitySwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F1218751472A657FFA55FC3C77AF595 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAC38FCBC1D8C32A75823324B04F84D /* Reachability.swift */; };
+		A2048E7CCB9E69896FE27ECBE45EA297 /* EnumTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F930D26ABF55F53DE03E776E49B4351 /* EnumTransform.swift */; };
+		A42A5E8A0603D141F93BECC3A7F60CB2 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F432A5DF760AAB361F68F79C84422ED /* UIView+Extension.swift */; };
+		AA4F487242D4A757DDAF3AE0598F9603 /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7825A90E082A1582EB16256B0E722B3F /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB260EB0B7E9BB3E9A92542E84826149 /* MapError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8628B58500228E44C6FB2D294467B4AE /* MapError.swift */; };
+		AFB2083BE902ED4F7B5EF1819ADF6009 /* TransformOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7DC4DD8F384C847F3C32C06876BC33 /* TransformOperators.swift */; };
+		B126D194607677E357CC81CCB828404C /* ToJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF28B14C0E4A3922F31BC9EBB310756 /* ToJSON.swift */; };
+		B1C6E02B2CE956988A000076E41AAC98 /* IntegerOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507A55F0978D5D063DBD9D89F0C263F2 /* IntegerOperators.swift */; };
+		B50A112F9564AF3BB3ECF4BA8D87BF71 /* LoginOtpViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = FC87C4A361B0C98B33B8BA61086DAA97 /* LoginOtpViewController.xib */; };
+		B886B6428693835EC997835E87C68E6D /* EasyLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10314AD8DA1C6DFE641C68279F7B4BE /* EasyLoginViewController.swift */; };
+		B92CE4492217BFBE2077902924C0F3C9 /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738134D7BAC4ECD69C032C1987D09814 /* IntExtension.swift */; };
+		BAA33285ACC719EDFE5F189EFBE28D5E /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791AE9FF50DE3ACFEBDC44E31DE782F5 /* CustomTextField.swift */; };
+		C1E1C80C3DFE120AAEFF29325046F73A /* DateFormatterTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCA6B999EC3F9B73EB4A9542D9B7AAA /* DateFormatterTransform.swift */; };
+		C312FDAE28ECE8A976D34DC3EBBEBC38 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D5356630DD2934023531FEF907BA0A1 /* SystemConfiguration.framework */; };
+		C31CE75FB84674D77237F2AD965F0449 /* MLTransition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A860499785225736C8A7EB8BF6FF97 /* MLTransition-dummy.m */; };
+		C749BB864F9317FC0C54C070E62F3DA3 /* EasyLoginViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 5489CAAE5163C32CC7353842341822FB /* EasyLoginViewController.xib */; };
+		CA08CB087478776A855D76244ABE2404 /* DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59C7A91C8CB9E65D4B32DB64D4B4CBA /* DateTransform.swift */; };
+		D15EFF83EB318ADD7A0705592B9C14B2 /* MLTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 68BE801046C5CAE34835B1C505E2B83C /* MLTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB862D00C30D1811F5325377D2FA2C71 /* NSDecimalNumberTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F9AF30CC721C9D9239AE62E76178AD /* NSDecimalNumberTransform.swift */; };
+		DF535549A81ED2984492A8313F7DDF8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DFE962BADDCE5901CE7AF6235D883F3 /* Foundation.framework */; };
+		DF53D7D484D217716B2A71AF9F3A8345 /* TextHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C382B2B0C9F750357860A11DDA6D246E /* TextHelper.swift */; };
+		E1FA2F51448BA16B1E28324005460868 /* EasyLoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4A56DD0171FCE5BF0D3366153BD35B /* EasyLoginViewModel.swift */; };
+		E8107819F90183D7550D6E3448463C84 /* Mappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA01CBF9E234AE4A02DD7EF736A491EC /* Mappable.swift */; };
+		ED669DE9FBB1FB22724917A2B94973C3 /* MLTransition-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 340D8038B72F17332D376D6FE3595600 /* MLTransition-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0E7C447865D58A47A2407D222FD310F /* EasyLoginTalkManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7548A57B22AFE277A0DE7FF178702CB9 /* EasyLoginTalkManager-dummy.m */; };
+		F32B35DE47EF8E74AE025E65E60458A3 /* PinCodeTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FA3B90A49CB167A294587B7942B7C7 /* PinCodeTextFieldDelegate.swift */; };
+		F39B1D31715143C64D3D4DB0172ADC13 /* FromJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35EE7C73DC3FBBEA1D9B8D42FC8025C /* FromJSON.swift */; };
+		F3F1B1D12068609953918A92DAEB6E61 /* PinCodeTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E0A3EA525D1CB2145F51629F5138C200 /* PinCodeTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F967BD5AF6F1E92F32195D138BBB27D7 /* LoginOtpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F11719CB28FB8E6341E1F70FA83BCDC /* LoginOtpViewModel.swift */; };
+		FCD8865F06FDBA9B58AE7D8CC44F3E3A /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E668ED33B9061A93953EC1FE3AC7D7 /* Map.swift */; };
+		FF2F79F31D2CC80AF108F9C7E3DC13F8 /* Constains.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7196B22EB0DB04CAAD5D4938734B48CD /* Constains.swift */; };
+		FFDEC662B691A331566716924F17E6E3 /* ObjectMapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D58D44757F7F03222EB348075ED9F2F8 /* ObjectMapper-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		131912321FB12B70096C98D7B2FA658D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 162E649F50FEC62B61BDD87D1BD422B4;
+			remoteInfo = ObjectMapper;
+		};
+		2937CEA327482661DACCDBBA365F9EAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDF1FB11822899F2978739C8B4A9BCB5;
+			remoteInfo = PinCodeTextField;
+		};
+		3C4B572BD672E87CA6D992B03676F76C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B00B2C167CD783351BD1D00BD5AD1F8;
+			remoteInfo = ReachabilitySwift;
+		};
+		4943CA88CB572AFF8C40BC3356263240 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40DD53E8EB42F6C8F2444555016890B6;
+			remoteInfo = EasyLoginTalkManager;
+		};
+		A634E9780EA87234D535CCC947A3F37D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B00B2C167CD783351BD1D00BD5AD1F8;
+			remoteInfo = ReachabilitySwift;
+		};
+		B46FB55F99FFCEF0E6C1552A2A54B22C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 162E649F50FEC62B61BDD87D1BD422B4;
+			remoteInfo = ObjectMapper;
+		};
+		DFA9884BD5C2E2AD48B0BC6B478D21B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0549CD5103D7ED8A76EE75490237AC6D;
+			remoteInfo = MLTransition;
+		};
+		EC7308A565F14CF26CD6E2B72A6A653F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0549CD5103D7ED8A76EE75490237AC6D;
+			remoteInfo = MLTransition;
+		};
+		F6FC224894DB78F3EAF29FC41B11A66A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDF1FB11822899F2978739C8B4A9BCB5;
+			remoteInfo = PinCodeTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		004DCBC7FCFD59FC4D0FE79F0BBA6B56 /* MLTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MLTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04840B64B1A3FFFAF928B375B3D4CDAD /* StringExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtension.swift; path = Pod/Extensions/StringExtension.swift; sourceTree = "<group>"; };
+		04BB848E8457975E66DF6A7CB7061F73 /* DictionaryTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DictionaryTransform.swift; path = Sources/DictionaryTransform.swift; sourceTree = "<group>"; };
+		0DAC38FCBC1D8C32A75823324B04F84D /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = Sources/Reachability.swift; sourceTree = "<group>"; };
+		11840DE0FA2E4C1E7A1718C5B77C350E /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		14E3633D906932D8E3E22B0FB160E106 /* DataTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataTransform.swift; path = Sources/DataTransform.swift; sourceTree = "<group>"; };
+		172069D8DBA2677F25D1E79D39D639D4 /* MLTransition-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MLTransition-prefix.pch"; sourceTree = "<group>"; };
+		1D5356630DD2934023531FEF907BA0A1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		1F667CC0E19EAF34E5A4119E2121F585 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		201625A206BC546E6DC4FF8AA1CC7FAA /* EasyLoginTalkManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EasyLoginTalkManager.swift; path = EasyLoginTalkManager/EasyLoginTalkManager.swift; sourceTree = "<group>"; };
+		21B03CA622E690725A6626C088E1D09F /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22AB2E7B19DAE6185D5E0928D2DD792B /* ReachabilitySwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReachabilitySwift.debug.xcconfig; sourceTree = "<group>"; };
+		243410B9535472556EA4BB6DBC133A0D /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
+		2F432A5DF760AAB361F68F79C84422ED /* UIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		31C1D37707DFAA5E6A164BCC07834264 /* Pods-Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-Info.plist"; sourceTree = "<group>"; };
+		32998B9030DB0DC8FC49A6552F2B1486 /* ObjectMapper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ObjectMapper-prefix.pch"; sourceTree = "<group>"; };
+		340D8038B72F17332D376D6FE3595600 /* MLTransition-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MLTransition-umbrella.h"; sourceTree = "<group>"; };
+		34F6F83CF199A5CEBF55C1E9EB098135 /* ObjectMapper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ObjectMapper.modulemap; sourceTree = "<group>"; };
+		35C305D3797C284E6F5BAA1D3E6F9BF8 /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
+		38A860499785225736C8A7EB8BF6FF97 /* MLTransition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MLTransition-dummy.m"; sourceTree = "<group>"; };
+		38D44D3FB5CD6BA9B01FD5815412996B /* PinCodeTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PinCodeTextField.modulemap; sourceTree = "<group>"; };
+		3A48AFBC7396F94B18376B6708559276 /* ObjectMapper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ObjectMapper.debug.xcconfig; sourceTree = "<group>"; };
+		3DF98FA38F883DAF074535262F4B1C43 /* PinCodeTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PinCodeTextField.swift; path = Pod/PinCodeTextField.swift; sourceTree = "<group>"; };
+		441854E35F81731E63E53DC7E4EEAD9D /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		47BA2CE0FABD4EE2DD9948E2B4533F22 /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AC1CDC0284BD38F2969875D47656D6E /* PinCodeTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PinCodeTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DF28B14C0E4A3922F31BC9EBB310756 /* ToJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToJSON.swift; path = Sources/ToJSON.swift; sourceTree = "<group>"; };
+		4EF92AC54719F0ADD211C3D7890F625B /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Sources/Operators.swift; sourceTree = "<group>"; };
+		4F11719CB28FB8E6341E1F70FA83BCDC /* LoginOtpViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginOtpViewModel.swift; sourceTree = "<group>"; };
+		507A55F0978D5D063DBD9D89F0C263F2 /* IntegerOperators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IntegerOperators.swift; path = Sources/IntegerOperators.swift; sourceTree = "<group>"; };
+		51DA6C5DE4370D430278DCF7C9F9AF86 /* EasyLoginTalkManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyLoginTalkManager-prefix.pch"; sourceTree = "<group>"; };
+		52E668ED33B9061A93953EC1FE3AC7D7 /* Map.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Map.swift; path = Sources/Map.swift; sourceTree = "<group>"; };
+		53F9AF30CC721C9D9239AE62E76178AD /* NSDecimalNumberTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSDecimalNumberTransform.swift; path = Sources/NSDecimalNumberTransform.swift; sourceTree = "<group>"; };
+		54011EC2C07142D68BE96C8E64B098FF /* MLTransition-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MLTransition-Info.plist"; sourceTree = "<group>"; };
+		5489CAAE5163C32CC7353842341822FB /* EasyLoginViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = EasyLoginViewController.xib; sourceTree = "<group>"; };
+		57F0914FB8963AB4B97C560E9550AD4D /* UserDefaultManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserDefaultManager.swift; sourceTree = "<group>"; };
+		5930DF4036D47A961AEE103C82E383F3 /* UIColor+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		594481EC715342767BA6C2459EBD78FE /* PinCodeTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PinCodeTextField.release.xcconfig; sourceTree = "<group>"; };
+		5A1271188B31FA82CF31DB5A448C0331 /* PinCodeTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PinCodeTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A6C3404A3F08A1F521AC2BC084845AA /* URLTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLTransform.swift; path = Sources/URLTransform.swift; sourceTree = "<group>"; };
+		5AF22C7E205E448E9AEC273DBE02576F /* ObjectMapper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ObjectMapper-umbrella.h"; sourceTree = "<group>"; };
+		5B3CA8C967C50EAF4A51766E6D5E49AE /* TransformType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransformType.swift; path = Sources/TransformType.swift; sourceTree = "<group>"; };
+		5DB808ED185C54DA27CE9B3E8765C1CF /* TransformOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransformOf.swift; path = Sources/TransformOf.swift; sourceTree = "<group>"; };
+		5DFE962BADDCE5901CE7AF6235D883F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5ED6A927097DCDDC35D034D8F03C1F38 /* EasyLoginTalkManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EasyLoginTalkManager-Info.plist"; sourceTree = "<group>"; };
+		5F1ED3F4A78D44C3D07B75CF64F35CB8 /* MLTransition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MLTransition.release.xcconfig; sourceTree = "<group>"; };
+		61D48E77EE64E0E9D42E684273454650 /* EasyLoginTalkManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EasyLoginTalkManager.debug.xcconfig; sourceTree = "<group>"; };
+		6283288BBF7DE9A32360B302144DF0C5 /* EasyLoginTalkManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyLoginTalkManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68B4D4BA6194A294B4301BF97D9A74EA /* PinCodeTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PinCodeTextField-Info.plist"; sourceTree = "<group>"; };
+		68BE801046C5CAE34835B1C505E2B83C /* MLTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MLTransition.h; path = Classes/MLTransition.h; sourceTree = "<group>"; };
+		6AAA85F5E4AB28A4661B0BBE3668F366 /* ReachabilitySwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReachabilitySwift.release.xcconfig; sourceTree = "<group>"; };
+		6BC80CF94BF64C2293D9E3376BA885F3 /* EasyLoginTalkManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EasyLoginTalkManager.modulemap; sourceTree = "<group>"; };
+		7196B22EB0DB04CAAD5D4938734B48CD /* Constains.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Constains.swift; sourceTree = "<group>"; };
+		738134D7BAC4ECD69C032C1987D09814 /* IntExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IntExtension.swift; path = Pod/Extensions/IntExtension.swift; sourceTree = "<group>"; };
+		7548A57B22AFE277A0DE7FF178702CB9 /* EasyLoginTalkManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EasyLoginTalkManager-dummy.m"; sourceTree = "<group>"; };
+		7825A90E082A1582EB16256B0E722B3F /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
+		791AE9FF50DE3ACFEBDC44E31DE782F5 /* CustomTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		7CA1DC548EA8AB80E092F235B11F18CB /* CodableTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CodableTransform.swift; path = Sources/CodableTransform.swift; sourceTree = "<group>"; };
+		7CD556CF65B7F44C1B8B954A8112F6D7 /* MLTransition.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MLTransition.modulemap; sourceTree = "<group>"; };
+		7F930D26ABF55F53DE03E776E49B4351 /* EnumTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EnumTransform.swift; path = Sources/EnumTransform.swift; sourceTree = "<group>"; };
+		83A3C8AE580D770BB7289E0C3753C6C3 /* ReachabilitySwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-umbrella.h"; sourceTree = "<group>"; };
+		83AA9E7D5280FAF9504938AAB78D751D /* ReachabilitySwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReachabilitySwift-dummy.m"; sourceTree = "<group>"; };
+		8628B58500228E44C6FB2D294467B4AE /* MapError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MapError.swift; path = Sources/MapError.swift; sourceTree = "<group>"; };
+		87416F45D30895EE8AE287E4485940C4 /* ObjectMapper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ObjectMapper.release.xcconfig; sourceTree = "<group>"; };
+		8C5BFF047D2A0E963255B6B9B01BE10D /* EasyLoginTalkManager.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = EasyLoginTalkManager.xcassets; path = EasyLoginTalkManager/EasyLoginTalkManager.xcassets; sourceTree = "<group>"; };
+		9299FFBBA13A78EF328D87800EDD94AB /* PinCodeTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PinCodeTextField-prefix.pch"; sourceTree = "<group>"; };
+		9531814D6BBEA56D31BE45A63F8FBBDE /* EasyLoginTalkManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EasyLoginTalkManager.h; path = EasyLoginTalkManager/EasyLoginTalkManager.h; sourceTree = "<group>"; };
+		98F16F9F6FFD6FE7A22D7D7CD501D273 /* MLTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MLTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D1CA0711C09222B6D55ADA2DFA7781E /* ReachabilitySwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ReachabilitySwift-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A10314AD8DA1C6DFE641C68279F7B4BE /* EasyLoginViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EasyLoginViewController.swift; sourceTree = "<group>"; };
+		A12D9959D3EEEDBC63D6CD249A9B3B79 /* EnumOperators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EnumOperators.swift; path = Sources/EnumOperators.swift; sourceTree = "<group>"; };
+		A35EE7C73DC3FBBEA1D9B8D42FC8025C /* FromJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FromJSON.swift; path = Sources/FromJSON.swift; sourceTree = "<group>"; };
+		A3DC401BF19C3C4EF556482E87813380 /* EasyLoginTalkManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = EasyLoginTalkManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A59C7A91C8CB9E65D4B32DB64D4B4CBA /* DateTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateTransform.swift; path = Sources/DateTransform.swift; sourceTree = "<group>"; };
+		A6FE9755636BF2C50A650594091F562F /* MLTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MLTransition.m; path = Classes/MLTransition.m; sourceTree = "<group>"; };
+		AF964B306E1CB6FE353DF8CC78EC5F8E /* HandlePresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HandlePresenter.swift; sourceTree = "<group>"; };
+		AFECBC24E09D0D25F822C27BD944AFD4 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
+		AFFB497A3269499D120149119AD67B08 /* ObjectMapper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ObjectMapper-Info.plist"; sourceTree = "<group>"; };
+		B45138496B85A072654D1D0F8EBBEDE5 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B79F469B13CFD648EAD74823BC009489 /* ImmutableMappable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImmutableMappable.swift; path = Sources/ImmutableMappable.swift; sourceTree = "<group>"; };
+		B7B62AA90117445FACE63AC4FE44AB17 /* ISO8601DateTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ISO8601DateTransform.swift; path = Sources/ISO8601DateTransform.swift; sourceTree = "<group>"; };
+		B9084FE779702931E8DF1D00A2D725FB /* ObjectMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ObjectMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA01CBF9E234AE4A02DD7EF736A491EC /* Mappable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Mappable.swift; path = Sources/Mappable.swift; sourceTree = "<group>"; };
+		BB5C26A1363D8C2FA4F0EC59925ADE3F /* CustomDateFormatTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomDateFormatTransform.swift; path = Sources/CustomDateFormatTransform.swift; sourceTree = "<group>"; };
+		BD4A56DD0171FCE5BF0D3366153BD35B /* EasyLoginViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EasyLoginViewModel.swift; sourceTree = "<group>"; };
+		C2540BB15C5F1528D72C8DFD5E9B7366 /* HexColorTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HexColorTransform.swift; path = Sources/HexColorTransform.swift; sourceTree = "<group>"; };
+		C382B2B0C9F750357860A11DDA6D246E /* TextHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextHelper.swift; path = Pod/TextHelper/TextHelper.swift; sourceTree = "<group>"; };
+		C4AC019657BF72C30530D9941F51CB07 /* CustomViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
+		C7FA3B90A49CB167A294587B7942B7C7 /* PinCodeTextFieldDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PinCodeTextFieldDelegate.swift; path = Pod/PinCodeTextFieldDelegate.swift; sourceTree = "<group>"; };
+		CF7DC4DD8F384C847F3C32C06876BC33 /* TransformOperators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransformOperators.swift; path = Sources/TransformOperators.swift; sourceTree = "<group>"; };
+		D53673C91653B7A12F42B7BA2F925C6E /* ReachabilitySwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-prefix.pch"; sourceTree = "<group>"; };
+		D58D44757F7F03222EB348075ED9F2F8 /* ObjectMapper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ObjectMapper-dummy.m"; sourceTree = "<group>"; };
+		D6D7C498FA339E02BD53ECB8916CEA8E /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
+		D98305615A8803A0C6002930E82A93F4 /* MLTransition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MLTransition.debug.xcconfig; sourceTree = "<group>"; };
+		DAE45A182075D2E619DE42DE39440E3C /* UserDataModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserDataModel.swift; sourceTree = "<group>"; };
+		DB84D82C2A9F9FAC59E3E3E79C37F5D0 /* LoginOtpViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginOtpViewController.swift; sourceTree = "<group>"; };
+		DDCA6B999EC3F9B73EB4A9542D9B7AAA /* DateFormatterTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateFormatterTransform.swift; path = Sources/DateFormatterTransform.swift; sourceTree = "<group>"; };
+		DE8F3EE0F2E27BAD756E43CEA04DF79F /* PinCodeTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PinCodeTextField.debug.xcconfig; sourceTree = "<group>"; };
+		E0A3EA525D1CB2145F51629F5138C200 /* PinCodeTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PinCodeTextField-umbrella.h"; sourceTree = "<group>"; };
+		E3352C3F3C528600DCDC12C31A2D9A2E /* EasyLoginTalkManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EasyLoginTalkManager.release.xcconfig; sourceTree = "<group>"; };
+		EA21B344259B58996DB73382B1B1521F /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		EC994B1902FF15678D09BC72904BB590 /* CustomViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CustomViewModel.swift; sourceTree = "<group>"; };
+		EF65BBA4DD3531B2FE5A985E84C0C9A7 /* ObjectMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ObjectMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F638FF9B57A33F77A077CB43E1B93787 /* Mapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Mapper.swift; path = Sources/Mapper.swift; sourceTree = "<group>"; };
+		F7CF89F2F076312B1FCA5469CFD3E9CE /* ReachabilitySwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ReachabilitySwift.modulemap; sourceTree = "<group>"; };
+		F7FA728232B474B4BCD5E8E2FA14F725 /* PinCodeTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PinCodeTextField-dummy.m"; sourceTree = "<group>"; };
+		FC87C4A361B0C98B33B8BA61086DAA97 /* LoginOtpViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = LoginOtpViewController.xib; sourceTree = "<group>"; };
+		FF1993DFDE04407822BA401BFAE9BE6A /* EasyLoginTalkManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyLoginTalkManager-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AFCFBB402B4BC8B3A0C634C0AE9D139 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0332D3EBA077FB2745464EFF56F7AB68 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67A8D6B1875F7E4F08D811D0D8C20B78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF535549A81ED2984492A8313F7DDF8B /* Foundation.framework in Frameworks */,
+				544CAB18AF63F49E45E19E5EF988A5D0 /* MLTransition.framework in Frameworks */,
+				38896C19D29064372B26AC7FEF8FCEFD /* ObjectMapper.framework in Frameworks */,
+				2384732F8447CF2026819F9D8D0307E4 /* PinCodeTextField.framework in Frameworks */,
+				4D296D2DA8D07AE051B1F6026C4B0E53 /* Reachability.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B5AE2CA7A72A9A22D165EAFF04DEB1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05B08BE313384119C9CA18E2ADDBDD14 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB350DFB6C7C867396297E196A4466D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F4B810B643FFC3749E58840E86B8404 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C612A50098CBDA1786229D120FEE8CB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33406637A0EA43949A68ABDF82F79A78 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9A39E176F614911FB28FADB38734118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6647BD11629D9F93904E5BC6801A9791 /* CoreTelephony.framework in Frameworks */,
+				99F594EDD9AF7309C029489FC4D86077 /* Foundation.framework in Frameworks */,
+				C312FDAE28ECE8A976D34DC3EBBEBC38 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01D6D83A0FCE091652D8100B3E85C9DD /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5930DF4036D47A961AEE103C82E383F3 /* UIColor+Extension.swift */,
+				2F432A5DF760AAB361F68F79C84422ED /* UIView+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		0ABD9A863C5974DD9ABD49F319985643 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2EDAB4D2661E5F19E9CE570193BF3A9 /* EasyLoginTalkManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		128DBA41895DAE6A62452F9F56A5A517 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				004DCBC7FCFD59FC4D0FE79F0BBA6B56 /* MLTransition.framework */,
+				EF65BBA4DD3531B2FE5A985E84C0C9A7 /* ObjectMapper.framework */,
+				5A1271188B31FA82CF31DB5A448C0331 /* PinCodeTextField.framework */,
+				47BA2CE0FABD4EE2DD9948E2B4533F22 /* Reachability.framework */,
+				1BA43E51EC2C2F728CF489EFC5BE1794 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1BA43E51EC2C2F728CF489EFC5BE1794 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				11840DE0FA2E4C1E7A1718C5B77C350E /* CoreTelephony.framework */,
+				5DFE962BADDCE5901CE7AF6235D883F3 /* Foundation.framework */,
+				1D5356630DD2934023531FEF907BA0A1 /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		1D31B180504A4B8A5173DC30F2C67AEB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BC80CF94BF64C2293D9E3376BA885F3 /* EasyLoginTalkManager.modulemap */,
+				7548A57B22AFE277A0DE7FF178702CB9 /* EasyLoginTalkManager-dummy.m */,
+				5ED6A927097DCDDC35D034D8F03C1F38 /* EasyLoginTalkManager-Info.plist */,
+				51DA6C5DE4370D430278DCF7C9F9AF86 /* EasyLoginTalkManager-prefix.pch */,
+				FF1993DFDE04407822BA401BFAE9BE6A /* EasyLoginTalkManager-umbrella.h */,
+				61D48E77EE64E0E9D42E684273454650 /* EasyLoginTalkManager.debug.xcconfig */,
+				E3352C3F3C528600DCDC12C31A2D9A2E /* EasyLoginTalkManager.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Example/Pods/Target Support Files/EasyLoginTalkManager";
+			sourceTree = "<group>";
+		};
+		22AC6FDF791EA8C0B74D81869B271BAB /* MLTransition */ = {
+			isa = PBXGroup;
+			children = (
+				68BE801046C5CAE34835B1C505E2B83C /* MLTransition.h */,
+				A6FE9755636BF2C50A650594091F562F /* MLTransition.m */,
+				5F5AC77FD3427D14292773B732D961B3 /* Support Files */,
+			);
+			path = MLTransition;
+			sourceTree = "<group>";
+		};
+		2D2B60CFAA2D0B3C58304AA8F619E546 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7CF89F2F076312B1FCA5469CFD3E9CE /* ReachabilitySwift.modulemap */,
+				83AA9E7D5280FAF9504938AAB78D751D /* ReachabilitySwift-dummy.m */,
+				9D1CA0711C09222B6D55ADA2DFA7781E /* ReachabilitySwift-Info.plist */,
+				D53673C91653B7A12F42B7BA2F925C6E /* ReachabilitySwift-prefix.pch */,
+				83A3C8AE580D770BB7289E0C3753C6C3 /* ReachabilitySwift-umbrella.h */,
+				22AB2E7B19DAE6185D5E0928D2DD792B /* ReachabilitySwift.debug.xcconfig */,
+				6AAA85F5E4AB28A4661B0BBE3668F366 /* ReachabilitySwift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ReachabilitySwift";
+			sourceTree = "<group>";
+		};
+		2ECC053C04D4020B19C82F98464C5F68 /* PinCodeTextField */ = {
+			isa = PBXGroup;
+			children = (
+				738134D7BAC4ECD69C032C1987D09814 /* IntExtension.swift */,
+				3DF98FA38F883DAF074535262F4B1C43 /* PinCodeTextField.swift */,
+				C7FA3B90A49CB167A294587B7942B7C7 /* PinCodeTextFieldDelegate.swift */,
+				04840B64B1A3FFFAF928B375B3D4CDAD /* StringExtension.swift */,
+				C382B2B0C9F750357860A11DDA6D246E /* TextHelper.swift */,
+				FE35A6CA91DAF1CC991E720508CDCE69 /* Support Files */,
+			);
+			path = PinCodeTextField;
+			sourceTree = "<group>";
+		};
+		445D6D1CFFB5BA45262C5E30197C2CD7 /* UserDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				57F0914FB8963AB4B97C560E9550AD4D /* UserDefaultManager.swift */,
+			);
+			path = UserDataManager;
+			sourceTree = "<group>";
+		};
+		47AA74848CFF4932D5392E4C81F55F46 /* ObjectMapper */ = {
+			isa = PBXGroup;
+			children = (
+				7CA1DC548EA8AB80E092F235B11F18CB /* CodableTransform.swift */,
+				BB5C26A1363D8C2FA4F0EC59925ADE3F /* CustomDateFormatTransform.swift */,
+				14E3633D906932D8E3E22B0FB160E106 /* DataTransform.swift */,
+				DDCA6B999EC3F9B73EB4A9542D9B7AAA /* DateFormatterTransform.swift */,
+				A59C7A91C8CB9E65D4B32DB64D4B4CBA /* DateTransform.swift */,
+				04BB848E8457975E66DF6A7CB7061F73 /* DictionaryTransform.swift */,
+				A12D9959D3EEEDBC63D6CD249A9B3B79 /* EnumOperators.swift */,
+				7F930D26ABF55F53DE03E776E49B4351 /* EnumTransform.swift */,
+				A35EE7C73DC3FBBEA1D9B8D42FC8025C /* FromJSON.swift */,
+				C2540BB15C5F1528D72C8DFD5E9B7366 /* HexColorTransform.swift */,
+				B79F469B13CFD648EAD74823BC009489 /* ImmutableMappable.swift */,
+				507A55F0978D5D063DBD9D89F0C263F2 /* IntegerOperators.swift */,
+				B7B62AA90117445FACE63AC4FE44AB17 /* ISO8601DateTransform.swift */,
+				52E668ED33B9061A93953EC1FE3AC7D7 /* Map.swift */,
+				8628B58500228E44C6FB2D294467B4AE /* MapError.swift */,
+				BA01CBF9E234AE4A02DD7EF736A491EC /* Mappable.swift */,
+				F638FF9B57A33F77A077CB43E1B93787 /* Mapper.swift */,
+				53F9AF30CC721C9D9239AE62E76178AD /* NSDecimalNumberTransform.swift */,
+				4EF92AC54719F0ADD211C3D7890F625B /* Operators.swift */,
+				4DF28B14C0E4A3922F31BC9EBB310756 /* ToJSON.swift */,
+				5DB808ED185C54DA27CE9B3E8765C1CF /* TransformOf.swift */,
+				CF7DC4DD8F384C847F3C32C06876BC33 /* TransformOperators.swift */,
+				5B3CA8C967C50EAF4A51766E6D5E49AE /* TransformType.swift */,
+				5A6C3404A3F08A1F521AC2BC084845AA /* URLTransform.swift */,
+				5446C164EEAB2D87733AFD12C1394D36 /* Support Files */,
+			);
+			path = ObjectMapper;
+			sourceTree = "<group>";
+		};
+		5446C164EEAB2D87733AFD12C1394D36 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				34F6F83CF199A5CEBF55C1E9EB098135 /* ObjectMapper.modulemap */,
+				D58D44757F7F03222EB348075ED9F2F8 /* ObjectMapper-dummy.m */,
+				AFFB497A3269499D120149119AD67B08 /* ObjectMapper-Info.plist */,
+				32998B9030DB0DC8FC49A6552F2B1486 /* ObjectMapper-prefix.pch */,
+				5AF22C7E205E448E9AEC273DBE02576F /* ObjectMapper-umbrella.h */,
+				3A48AFBC7396F94B18376B6708559276 /* ObjectMapper.debug.xcconfig */,
+				87416F45D30895EE8AE287E4485940C4 /* ObjectMapper.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ObjectMapper";
+			sourceTree = "<group>";
+		};
+		5F5AC77FD3427D14292773B732D961B3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CD556CF65B7F44C1B8B954A8112F6D7 /* MLTransition.modulemap */,
+				38A860499785225736C8A7EB8BF6FF97 /* MLTransition-dummy.m */,
+				54011EC2C07142D68BE96C8E64B098FF /* MLTransition-Info.plist */,
+				172069D8DBA2677F25D1E79D39D639D4 /* MLTransition-prefix.pch */,
+				340D8038B72F17332D376D6FE3595600 /* MLTransition-umbrella.h */,
+				D98305615A8803A0C6002930E82A93F4 /* MLTransition.debug.xcconfig */,
+				5F1ED3F4A78D44C3D07B75CF64F35CB8 /* MLTransition.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MLTransition";
+			sourceTree = "<group>";
+		};
+		6A1504451F38977F0779D05A8122733C /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A10314AD8DA1C6DFE641C68279F7B4BE /* EasyLoginViewController.swift */,
+				5489CAAE5163C32CC7353842341822FB /* EasyLoginViewController.xib */,
+				BD4A56DD0171FCE5BF0D3366153BD35B /* EasyLoginViewModel.swift */,
+			);
+			path = LoginViewController;
+			sourceTree = "<group>";
+		};
+		803A5EB459E30EC605B156726DF9F673 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				22AC6FDF791EA8C0B74D81869B271BAB /* MLTransition */,
+				47AA74848CFF4932D5392E4C81F55F46 /* ObjectMapper */,
+				2ECC053C04D4020B19C82F98464C5F68 /* PinCodeTextField */,
+				F2F7EFC24ADA6167C0A2D623A0F663CF /* ReachabilitySwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		92C6BB50460EECF16070014B034C3191 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B69D1C9B2837D3ED3D4A0B894667A62D /* LoginOtpViewController */,
+				6A1504451F38977F0779D05A8122733C /* LoginViewController */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		9BDBD95ED116334D1B2835202D8D3060 /* Pods-Example */ = {
+			isa = PBXGroup;
+			children = (
+				35C305D3797C284E6F5BAA1D3E6F9BF8 /* Pods-Example.modulemap */,
+				441854E35F81731E63E53DC7E4EEAD9D /* Pods-Example-acknowledgements.markdown */,
+				EA21B344259B58996DB73382B1B1521F /* Pods-Example-acknowledgements.plist */,
+				D6D7C498FA339E02BD53ECB8916CEA8E /* Pods-Example-dummy.m */,
+				AFECBC24E09D0D25F822C27BD944AFD4 /* Pods-Example-frameworks.sh */,
+				31C1D37707DFAA5E6A164BCC07834264 /* Pods-Example-Info.plist */,
+				7825A90E082A1582EB16256B0E722B3F /* Pods-Example-umbrella.h */,
+				B45138496B85A072654D1D0F8EBBEDE5 /* Pods-Example.debug.xcconfig */,
+				243410B9535472556EA4BB6DBC133A0D /* Pods-Example.release.xcconfig */,
+			);
+			name = "Pods-Example";
+			path = "Target Support Files/Pods-Example";
+			sourceTree = "<group>";
+		};
+		A1251B1154CAE3C43C60E4A98863D5A1 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				DFA0DA5650CAE2FC902E341F8F825E8D /* CustomView */,
+				01D6D83A0FCE091652D8100B3E85C9DD /* Extension */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		B2EDAB4D2661E5F19E9CE570193BF3A9 /* EasyLoginTalkManager */ = {
+			isa = PBXGroup;
+			children = (
+				9531814D6BBEA56D31BE45A63F8FBBDE /* EasyLoginTalkManager.h */,
+				201625A206BC546E6DC4FF8AA1CC7FAA /* EasyLoginTalkManager.swift */,
+				B9971A2EFBFB39F6D4D7147902C4FE3B /* ClassCode */,
+				E13F3637AA216AD770BF081C1A79812A /* Pod */,
+				CEBDC76011EE73E3970DEEE1FA45A357 /* Resources */,
+				1D31B180504A4B8A5173DC30F2C67AEB /* Support Files */,
+			);
+			name = EasyLoginTalkManager;
+			path = ../../EasyLoginTalkManager;
+			sourceTree = "<group>";
+		};
+		B69D1C9B2837D3ED3D4A0B894667A62D /* LoginOtpViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DB84D82C2A9F9FAC59E3E3E79C37F5D0 /* LoginOtpViewController.swift */,
+				FC87C4A361B0C98B33B8BA61086DAA97 /* LoginOtpViewController.xib */,
+				4F11719CB28FB8E6341E1F70FA83BCDC /* LoginOtpViewModel.swift */,
+			);
+			path = LoginOtpViewController;
+			sourceTree = "<group>";
+		};
+		B9971A2EFBFB39F6D4D7147902C4FE3B /* ClassCode */ = {
+			isa = PBXGroup;
+			children = (
+				B9A72198B9F4DFDD4EDEEBAB88D54E51 /* ManagerApp */,
+				F412E456D0BAA1D120E4A5ABFD3D5E74 /* Model */,
+				92C6BB50460EECF16070014B034C3191 /* UI */,
+				A1251B1154CAE3C43C60E4A98863D5A1 /* Util */,
+			);
+			name = ClassCode;
+			path = EasyLoginTalkManager/ClassCode;
+			sourceTree = "<group>";
+		};
+		B9A72198B9F4DFDD4EDEEBAB88D54E51 /* ManagerApp */ = {
+			isa = PBXGroup;
+			children = (
+				C11B6D97A2307A178AF8C22D21217B05 /* Constains */,
+				F3293928474D023F715C6EA8C7D36B69 /* HandlePresenter */,
+				445D6D1CFFB5BA45262C5E30197C2CD7 /* UserDataManager */,
+			);
+			path = ManagerApp;
+			sourceTree = "<group>";
+		};
+		C11B6D97A2307A178AF8C22D21217B05 /* Constains */ = {
+			isa = PBXGroup;
+			children = (
+				7196B22EB0DB04CAAD5D4938734B48CD /* Constains.swift */,
+			);
+			path = Constains;
+			sourceTree = "<group>";
+		};
+		CE2E825F08D3AD0FD76E6D78D7512ED0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BDBD95ED116334D1B2835202D8D3060 /* Pods-Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CEBDC76011EE73E3970DEEE1FA45A357 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8C5BFF047D2A0E963255B6B9B01BE10D /* EasyLoginTalkManager.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				0ABD9A863C5974DD9ABD49F319985643 /* Development Pods */,
+				128DBA41895DAE6A62452F9F56A5A517 /* Frameworks */,
+				803A5EB459E30EC605B156726DF9F673 /* Pods */,
+				DC387304CDEEC36BB5AA262EA832B47C /* Products */,
+				CE2E825F08D3AD0FD76E6D78D7512ED0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DC387304CDEEC36BB5AA262EA832B47C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6283288BBF7DE9A32360B302144DF0C5 /* EasyLoginTalkManager.framework */,
+				98F16F9F6FFD6FE7A22D7D7CD501D273 /* MLTransition.framework */,
+				B9084FE779702931E8DF1D00A2D725FB /* ObjectMapper.framework */,
+				4AC1CDC0284BD38F2969875D47656D6E /* PinCodeTextField.framework */,
+				1F667CC0E19EAF34E5A4119E2121F585 /* Pods_Example.framework */,
+				21B03CA622E690725A6626C088E1D09F /* Reachability.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFA0DA5650CAE2FC902E341F8F825E8D /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				791AE9FF50DE3ACFEBDC44E31DE782F5 /* CustomTextField.swift */,
+				C4AC019657BF72C30530D9941F51CB07 /* CustomViewController.swift */,
+				EC994B1902FF15678D09BC72904BB590 /* CustomViewModel.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		E13F3637AA216AD770BF081C1A79812A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A3DC401BF19C3C4EF556482E87813380 /* EasyLoginTalkManager.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F2F7EFC24ADA6167C0A2D623A0F663CF /* ReachabilitySwift */ = {
+			isa = PBXGroup;
+			children = (
+				0DAC38FCBC1D8C32A75823324B04F84D /* Reachability.swift */,
+				2D2B60CFAA2D0B3C58304AA8F619E546 /* Support Files */,
+			);
+			path = ReachabilitySwift;
+			sourceTree = "<group>";
+		};
+		F3293928474D023F715C6EA8C7D36B69 /* HandlePresenter */ = {
+			isa = PBXGroup;
+			children = (
+				AF964B306E1CB6FE353DF8CC78EC5F8E /* HandlePresenter.swift */,
+			);
+			path = HandlePresenter;
+			sourceTree = "<group>";
+		};
+		F412E456D0BAA1D120E4A5ABFD3D5E74 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DAE45A182075D2E619DE42DE39440E3C /* UserDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FE35A6CA91DAF1CC991E720508CDCE69 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				38D44D3FB5CD6BA9B01FD5815412996B /* PinCodeTextField.modulemap */,
+				F7FA728232B474B4BCD5E8E2FA14F725 /* PinCodeTextField-dummy.m */,
+				68B4D4BA6194A294B4301BF97D9A74EA /* PinCodeTextField-Info.plist */,
+				9299FFBBA13A78EF328D87800EDD94AB /* PinCodeTextField-prefix.pch */,
+				E0A3EA525D1CB2145F51629F5138C200 /* PinCodeTextField-umbrella.h */,
+				DE8F3EE0F2E27BAD756E43CEA04DF79F /* PinCodeTextField.debug.xcconfig */,
+				594481EC715342767BA6C2459EBD78FE /* PinCodeTextField.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PinCodeTextField";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		20848C12F6133F4BFAB6D0DCD20CAA18 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D18B0D04365961A77278772A52A0C44 /* ObjectMapper-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CBA406A22B2D21EAB68F10187828C3B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA4F487242D4A757DDAF3AE0598F9603 /* Pods-Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47D91481CD878B604C550ED2353D9297 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DF59AB7581ECA5EB6EC168384B0E19D /* ReachabilitySwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FB11359EDEE3189F3361D6B3690EE9C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED669DE9FBB1FB22724917A2B94973C3 /* MLTransition-umbrella.h in Headers */,
+				D15EFF83EB318ADD7A0705592B9C14B2 /* MLTransition.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0DF3E0B23A68C41AD1F05BA01A6030 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				819D16899601F40443C5933FB48C5D02 /* EasyLoginTalkManager-umbrella.h in Headers */,
+				47F5F877D4436B54047D057E5AF0DAB3 /* EasyLoginTalkManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE35A0532FB8364E4E036C09E07B84BB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F1B1D12068609953918A92DAEB6E61 /* PinCodeTextField-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0549CD5103D7ED8A76EE75490237AC6D /* MLTransition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2F63F62B54C16EB3AADD257AF69EAE0 /* Build configuration list for PBXNativeTarget "MLTransition" */;
+			buildPhases = (
+				5FB11359EDEE3189F3361D6B3690EE9C /* Headers */,
+				E35A990294CDBC7A8516E2BF9E9FBFC2 /* Sources */,
+				C612A50098CBDA1786229D120FEE8CB1 /* Frameworks */,
+				B849E25AB6DA77A3B94A1869EA33774D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MLTransition;
+			productName = MLTransition;
+			productReference = 98F16F9F6FFD6FE7A22D7D7CD501D273 /* MLTransition.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0AEE99A309977BD12A049FF48AF9BA4B /* Pods-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EF8A1AE4B4D29D08C5DE8B8FC1C46ED /* Build configuration list for PBXNativeTarget "Pods-Example" */;
+			buildPhases = (
+				2CBA406A22B2D21EAB68F10187828C3B /* Headers */,
+				C1628694F3740A63ED5A51776E3230B9 /* Sources */,
+				7B5AE2CA7A72A9A22D165EAFF04DEB1D /* Frameworks */,
+				3C6688B860F4F92112F4F7687417A8FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				338F3E568FD3B395DC00AC3749D3B7D9 /* PBXTargetDependency */,
+				CD67FC960A17FE3B8DCE112CE55756A1 /* PBXTargetDependency */,
+				F5D869AED1063C69DB62834539A474E6 /* PBXTargetDependency */,
+				17F853EF26FE995791382B3056FFA654 /* PBXTargetDependency */,
+				2F612C9986544820B243278B7D317B8F /* PBXTargetDependency */,
+			);
+			name = "Pods-Example";
+			productName = "Pods-Example";
+			productReference = 1F667CC0E19EAF34E5A4119E2121F585 /* Pods_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0B00B2C167CD783351BD1D00BD5AD1F8 /* ReachabilitySwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B33049512463391CD715335BD1BCEF3F /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */;
+			buildPhases = (
+				47D91481CD878B604C550ED2353D9297 /* Headers */,
+				91DA0E82E6F4C3A1780E02114CF30FF7 /* Sources */,
+				F9A39E176F614911FB28FADB38734118 /* Frameworks */,
+				369C7B6D082B5768FA4D6EBAAE4548F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReachabilitySwift;
+			productName = ReachabilitySwift;
+			productReference = 21B03CA622E690725A6626C088E1D09F /* Reachability.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		162E649F50FEC62B61BDD87D1BD422B4 /* ObjectMapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEF0F49A5C39D3F472596886C55B26BF /* Build configuration list for PBXNativeTarget "ObjectMapper" */;
+			buildPhases = (
+				20848C12F6133F4BFAB6D0DCD20CAA18 /* Headers */,
+				1E6400AC08B936178FBB793664C918B4 /* Sources */,
+				BB350DFB6C7C867396297E196A4466D2 /* Frameworks */,
+				DF4388A26E6A5F1BC7D8413545C951BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObjectMapper;
+			productName = ObjectMapper;
+			productReference = B9084FE779702931E8DF1D00A2D725FB /* ObjectMapper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		40DD53E8EB42F6C8F2444555016890B6 /* EasyLoginTalkManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59849CA6E0F50A7A696BEEF04AC0A48A /* Build configuration list for PBXNativeTarget "EasyLoginTalkManager" */;
+			buildPhases = (
+				DE0DF3E0B23A68C41AD1F05BA01A6030 /* Headers */,
+				CA6422D6A9352CB2FCE30E207C0365F8 /* Sources */,
+				67A8D6B1875F7E4F08D811D0D8C20B78 /* Frameworks */,
+				E0A46AB65A235706854175AE1584FD07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28F88E71820829B28411ACD13FE8BFA2 /* PBXTargetDependency */,
+				45FA5F78B32E95331743B46122576714 /* PBXTargetDependency */,
+				9CEEEAA400BA312AB13EB3D0A5828B52 /* PBXTargetDependency */,
+				99400C771EECEBD59C2D551F2D0FDB79 /* PBXTargetDependency */,
+			);
+			name = EasyLoginTalkManager;
+			productName = EasyLoginTalkManager;
+			productReference = 6283288BBF7DE9A32360B302144DF0C5 /* EasyLoginTalkManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BDF1FB11822899F2978739C8B4A9BCB5 /* PinCodeTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24038DA43D0C158AD38D8C68DB239AAE /* Build configuration list for PBXNativeTarget "PinCodeTextField" */;
+			buildPhases = (
+				FE35A0532FB8364E4E036C09E07B84BB /* Headers */,
+				309B340B76BE50D062D4AFA95F91E376 /* Sources */,
+				3AFCFBB402B4BC8B3A0C634C0AE9D139 /* Frameworks */,
+				C5C01559FF1F65E66A3135D6B0B5D864 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PinCodeTextField;
+			productName = PinCodeTextField;
+			productReference = 4AC1CDC0284BD38F2969875D47656D6E /* PinCodeTextField.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = DC387304CDEEC36BB5AA262EA832B47C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40DD53E8EB42F6C8F2444555016890B6 /* EasyLoginTalkManager */,
+				0549CD5103D7ED8A76EE75490237AC6D /* MLTransition */,
+				162E649F50FEC62B61BDD87D1BD422B4 /* ObjectMapper */,
+				BDF1FB11822899F2978739C8B4A9BCB5 /* PinCodeTextField */,
+				0AEE99A309977BD12A049FF48AF9BA4B /* Pods-Example */,
+				0B00B2C167CD783351BD1D00BD5AD1F8 /* ReachabilitySwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		369C7B6D082B5768FA4D6EBAAE4548F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C6688B860F4F92112F4F7687417A8FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B849E25AB6DA77A3B94A1869EA33774D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5C01559FF1F65E66A3135D6B0B5D864 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF4388A26E6A5F1BC7D8413545C951BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0A46AB65A235706854175AE1584FD07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0366C892A428F6B2AB850AFF899A73C2 /* EasyLoginTalkManager.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E6400AC08B936178FBB793664C918B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29BBA92E42995905548453C7E110BE3A /* CodableTransform.swift in Sources */,
+				456E8417EF9476FD48139FFA3B6508F8 /* CustomDateFormatTransform.swift in Sources */,
+				787C1AC73506CDE0A4C74619D72B0ECF /* DataTransform.swift in Sources */,
+				C1E1C80C3DFE120AAEFF29325046F73A /* DateFormatterTransform.swift in Sources */,
+				CA08CB087478776A855D76244ABE2404 /* DateTransform.swift in Sources */,
+				37F2164479BCC4B26D9F8BF40887FC5C /* DictionaryTransform.swift in Sources */,
+				4D6609F308831CE1200B5C82F875CF5F /* EnumOperators.swift in Sources */,
+				A2048E7CCB9E69896FE27ECBE45EA297 /* EnumTransform.swift in Sources */,
+				F39B1D31715143C64D3D4DB0172ADC13 /* FromJSON.swift in Sources */,
+				1C0305143D2D64BB460792682C7A4F27 /* HexColorTransform.swift in Sources */,
+				1708052E05EF489505705F3A601C0D26 /* ImmutableMappable.swift in Sources */,
+				B1C6E02B2CE956988A000076E41AAC98 /* IntegerOperators.swift in Sources */,
+				207027233777B9CCD21489CD56DB304B /* ISO8601DateTransform.swift in Sources */,
+				FCD8865F06FDBA9B58AE7D8CC44F3E3A /* Map.swift in Sources */,
+				AB260EB0B7E9BB3E9A92542E84826149 /* MapError.swift in Sources */,
+				E8107819F90183D7550D6E3448463C84 /* Mappable.swift in Sources */,
+				695820EE281A561C409E276A8448A954 /* Mapper.swift in Sources */,
+				DB862D00C30D1811F5325377D2FA2C71 /* NSDecimalNumberTransform.swift in Sources */,
+				FFDEC662B691A331566716924F17E6E3 /* ObjectMapper-dummy.m in Sources */,
+				8675CE37E93D7B95057B3D7AE34BD246 /* Operators.swift in Sources */,
+				B126D194607677E357CC81CCB828404C /* ToJSON.swift in Sources */,
+				19E12799989182812C796A8163964E85 /* TransformOf.swift in Sources */,
+				AFB2083BE902ED4F7B5EF1819ADF6009 /* TransformOperators.swift in Sources */,
+				4900345A9A092AAD6E9C074AA4724E45 /* TransformType.swift in Sources */,
+				2A256325B400DDDB50100FA290490823 /* URLTransform.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		309B340B76BE50D062D4AFA95F91E376 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B92CE4492217BFBE2077902924C0F3C9 /* IntExtension.swift in Sources */,
+				5AC24173F1CA353CFF524B36FB9E404F /* PinCodeTextField-dummy.m in Sources */,
+				02600FC68998D8BC852DA73ACAC6C571 /* PinCodeTextField.swift in Sources */,
+				F32B35DE47EF8E74AE025E65E60458A3 /* PinCodeTextFieldDelegate.swift in Sources */,
+				0F8BFE163F61FDA6BBC78CE5DCD48E65 /* StringExtension.swift in Sources */,
+				DF53D7D484D217716B2A71AF9F3A8345 /* TextHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91DA0E82E6F4C3A1780E02114CF30FF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F1218751472A657FFA55FC3C77AF595 /* Reachability.swift in Sources */,
+				97B6E78EA2367B7A7DDCDB9E46B26B1E /* ReachabilitySwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1628694F3740A63ED5A51776E3230B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				823DCD7791AAAE9897C699D84237A774 /* Pods-Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA6422D6A9352CB2FCE30E207C0365F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF2F79F31D2CC80AF108F9C7E3DC13F8 /* Constains.swift in Sources */,
+				BAA33285ACC719EDFE5F189EFBE28D5E /* CustomTextField.swift in Sources */,
+				8523EE908DC58A7FCFF8AB711EE2A428 /* CustomViewController.swift in Sources */,
+				44A5924A47F313D12332F0C5D988F358 /* CustomViewModel.swift in Sources */,
+				F0E7C447865D58A47A2407D222FD310F /* EasyLoginTalkManager-dummy.m in Sources */,
+				92A18E8344BF4FFBA23E2C6E395D326F /* EasyLoginTalkManager.swift in Sources */,
+				B886B6428693835EC997835E87C68E6D /* EasyLoginViewController.swift in Sources */,
+				C749BB864F9317FC0C54C070E62F3DA3 /* EasyLoginViewController.xib in Sources */,
+				E1FA2F51448BA16B1E28324005460868 /* EasyLoginViewModel.swift in Sources */,
+				345AFCA72B3F007E4486A99157DDA9BC /* HandlePresenter.swift in Sources */,
+				7AB7F271C135827659553F0B140149B2 /* LoginOtpViewController.swift in Sources */,
+				B50A112F9564AF3BB3ECF4BA8D87BF71 /* LoginOtpViewController.xib in Sources */,
+				F967BD5AF6F1E92F32195D138BBB27D7 /* LoginOtpViewModel.swift in Sources */,
+				61EB220C459E7DF605F80E190E8EF8F9 /* UIColor+Extension.swift in Sources */,
+				A42A5E8A0603D141F93BECC3A7F60CB2 /* UIView+Extension.swift in Sources */,
+				75D77D6082B1A53CE22A104B8327D15D /* UserDataModel.swift in Sources */,
+				1EC86B89ECEAA94DBB99D2B89EB4A5C5 /* UserDefaultManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E35A990294CDBC7A8516E2BF9E9FBFC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C31CE75FB84674D77237F2AD965F0449 /* MLTransition-dummy.m in Sources */,
+				07309AFC8991A07BC28527D24204B2BC /* MLTransition.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17F853EF26FE995791382B3056FFA654 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PinCodeTextField;
+			target = BDF1FB11822899F2978739C8B4A9BCB5 /* PinCodeTextField */;
+			targetProxy = F6FC224894DB78F3EAF29FC41B11A66A /* PBXContainerItemProxy */;
+		};
+		28F88E71820829B28411ACD13FE8BFA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MLTransition;
+			target = 0549CD5103D7ED8A76EE75490237AC6D /* MLTransition */;
+			targetProxy = EC7308A565F14CF26CD6E2B72A6A653F /* PBXContainerItemProxy */;
+		};
+		2F612C9986544820B243278B7D317B8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReachabilitySwift;
+			target = 0B00B2C167CD783351BD1D00BD5AD1F8 /* ReachabilitySwift */;
+			targetProxy = A634E9780EA87234D535CCC947A3F37D /* PBXContainerItemProxy */;
+		};
+		338F3E568FD3B395DC00AC3749D3B7D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EasyLoginTalkManager;
+			target = 40DD53E8EB42F6C8F2444555016890B6 /* EasyLoginTalkManager */;
+			targetProxy = 4943CA88CB572AFF8C40BC3356263240 /* PBXContainerItemProxy */;
+		};
+		45FA5F78B32E95331743B46122576714 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ObjectMapper;
+			target = 162E649F50FEC62B61BDD87D1BD422B4 /* ObjectMapper */;
+			targetProxy = 131912321FB12B70096C98D7B2FA658D /* PBXContainerItemProxy */;
+		};
+		99400C771EECEBD59C2D551F2D0FDB79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReachabilitySwift;
+			target = 0B00B2C167CD783351BD1D00BD5AD1F8 /* ReachabilitySwift */;
+			targetProxy = 3C4B572BD672E87CA6D992B03676F76C /* PBXContainerItemProxy */;
+		};
+		9CEEEAA400BA312AB13EB3D0A5828B52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PinCodeTextField;
+			target = BDF1FB11822899F2978739C8B4A9BCB5 /* PinCodeTextField */;
+			targetProxy = 2937CEA327482661DACCDBBA365F9EAF /* PBXContainerItemProxy */;
+		};
+		CD67FC960A17FE3B8DCE112CE55756A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MLTransition;
+			target = 0549CD5103D7ED8A76EE75490237AC6D /* MLTransition */;
+			targetProxy = DFA9884BD5C2E2AD48B0BC6B478D21B2 /* PBXContainerItemProxy */;
+		};
+		F5D869AED1063C69DB62834539A474E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ObjectMapper;
+			target = 162E649F50FEC62B61BDD87D1BD422B4 /* ObjectMapper */;
+			targetProxy = B46FB55F99FFCEF0E6C1552A2A54B22C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08A351F86FDD9B9C9F3F177598A2A356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A48AFBC7396F94B18376B6708559276 /* ObjectMapper.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ObjectMapper/ObjectMapper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ObjectMapper/ObjectMapper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ObjectMapper/ObjectMapper.modulemap";
+				PRODUCT_MODULE_NAME = ObjectMapper;
+				PRODUCT_NAME = ObjectMapper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0DDA7ACD3874666CD21D7E0F8B67FF05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B45138496B85A072654D1D0F8EBBEDE5 /* Pods-Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Example/Pods-Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Example/Pods-Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		18D7B1AE63604F11F0EA5733E01034AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 594481EC715342767BA6C2459EBD78FE /* PinCodeTextField.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PinCodeTextField/PinCodeTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PinCodeTextField/PinCodeTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PinCodeTextField/PinCodeTextField.modulemap";
+				PRODUCT_MODULE_NAME = PinCodeTextField;
+				PRODUCT_NAME = PinCodeTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3FF3B7C5F62A00FBB362B6106BD93A68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61D48E77EE64E0E9D42E684273454650 /* EasyLoginTalkManager.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EasyLoginTalkManager/EasyLoginTalkManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EasyLoginTalkManager/EasyLoginTalkManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/EasyLoginTalkManager/EasyLoginTalkManager.modulemap";
+				PRODUCT_MODULE_NAME = EasyLoginTalkManager;
+				PRODUCT_NAME = EasyLoginTalkManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		40ED49BDC0A17098D84F48C0C7D56112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3352C3F3C528600DCDC12C31A2D9A2E /* EasyLoginTalkManager.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EasyLoginTalkManager/EasyLoginTalkManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EasyLoginTalkManager/EasyLoginTalkManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/EasyLoginTalkManager/EasyLoginTalkManager.modulemap";
+				PRODUCT_MODULE_NAME = EasyLoginTalkManager;
+				PRODUCT_NAME = EasyLoginTalkManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5848546422749E6E6574205BA148488D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 243410B9535472556EA4BB6DBC133A0D /* Pods-Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Example/Pods-Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Example/Pods-Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6683A111E01E508F7E938438B5D8A3EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AAA85F5E4AB28A4661B0BBE3668F366 /* ReachabilitySwift.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
+				PRODUCT_MODULE_NAME = Reachability;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7479E885F2F807B5508F6C99EF29720A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D98305615A8803A0C6002930E82A93F4 /* MLTransition.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MLTransition/MLTransition-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MLTransition/MLTransition-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MLTransition/MLTransition.modulemap";
+				PRODUCT_MODULE_NAME = MLTransition;
+				PRODUCT_NAME = MLTransition;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		96097B72225E2A80E1AA49AD92B80F94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22AB2E7B19DAE6185D5E0928D2DD792B /* ReachabilitySwift.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
+				PRODUCT_MODULE_NAME = Reachability;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9A4BB4A1C5E117ACC1206CC2E1AB7709 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE8F3EE0F2E27BAD756E43CEA04DF79F /* PinCodeTextField.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PinCodeTextField/PinCodeTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PinCodeTextField/PinCodeTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PinCodeTextField/PinCodeTextField.modulemap";
+				PRODUCT_MODULE_NAME = PinCodeTextField;
+				PRODUCT_NAME = PinCodeTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E3DE1DFA2B451D8A91CA097F7DF7268A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F1ED3F4A78D44C3D07B75CF64F35CB8 /* MLTransition.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MLTransition/MLTransition-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MLTransition/MLTransition-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MLTransition/MLTransition.modulemap";
+				PRODUCT_MODULE_NAME = MLTransition;
+				PRODUCT_NAME = MLTransition;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EF9EB2D3C1D49574AA08E87951CC7BD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87416F45D30895EE8AE287E4485940C4 /* ObjectMapper.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ObjectMapper/ObjectMapper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ObjectMapper/ObjectMapper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ObjectMapper/ObjectMapper.modulemap";
+				PRODUCT_MODULE_NAME = ObjectMapper;
+				PRODUCT_NAME = ObjectMapper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24038DA43D0C158AD38D8C68DB239AAE /* Build configuration list for PBXNativeTarget "PinCodeTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A4BB4A1C5E117ACC1206CC2E1AB7709 /* Debug */,
+				18D7B1AE63604F11F0EA5733E01034AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7888FA6713EABBF66D26A8003AD1CA /* Debug */,
+				1422B121EAEAEA11307496903FA623C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59849CA6E0F50A7A696BEEF04AC0A48A /* Build configuration list for PBXNativeTarget "EasyLoginTalkManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FF3B7C5F62A00FBB362B6106BD93A68 /* Debug */,
+				40ED49BDC0A17098D84F48C0C7D56112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EF8A1AE4B4D29D08C5DE8B8FC1C46ED /* Build configuration list for PBXNativeTarget "Pods-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DDA7ACD3874666CD21D7E0F8B67FF05 /* Debug */,
+				5848546422749E6E6574205BA148488D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2F63F62B54C16EB3AADD257AF69EAE0 /* Build configuration list for PBXNativeTarget "MLTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7479E885F2F807B5508F6C99EF29720A /* Debug */,
+				E3DE1DFA2B451D8A91CA097F7DF7268A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B33049512463391CD715335BD1BCEF3F /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96097B72225E2A80E1AA49AD92B80F94 /* Debug */,
+				6683A111E01E508F7E938438B5D8A3EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEF0F49A5C39D3F472596886C55B26BF /* Build configuration list for PBXNativeTarget "ObjectMapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08A351F86FDD9B9C9F3F177598A2A356 /* Debug */,
+				EF9EB2D3C1D49574AA08E87951CC7BD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
